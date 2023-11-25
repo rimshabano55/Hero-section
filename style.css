@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+    background-image: url(Punjabi-Food-2\ \(1\).jpg);
+    background-size: cover;  
+    font-size: 20px;
+    height: 65px;
+}
+.traditional{
+    /* border: #ffffff 3px solid;
+    border-radius: ;
+    transform: translate(50%,40%); */
+    /* width: 110px; */
+    display: flex;
+    gap: 30px; 
+       
+
+}
+.img{
+    border: #ffffff 3px solid;
+    border-radius:50% ;
+    transform: translate(60%,-160%);
+    
+}
+
+/* .main-container{
+    background-image:url(Punjabi\ food.jpg);
+} */
+body{
+    background-image:linear-gradient(
+        rgba(112, 34, 214, 0.2),
+        rgba(66, 232, 232, 0.123) 
+      ), url(Punjabi\ food.jpg);
+    background-size: cover; 
+}
+.logo{
+    padding-left: 12px;
+    padding-top: 12px;
+}
+.navigation{
+    padding-right: 12px;
+    padding-top: 12px;
+    color: aliceblue;
+    
+
+}
+.header{
+    color: aliceblue;
+transform:translate(5%,80%);
+font-size: 25px;
+height: 200px;
+width: 600px;
+
+
+}
+.btn{
+border-radius: 40%;
+margin-top: 50px;
+background-color:orange;
+font-size: 20px;
+color: #ffffff;
+width: 130px;
+height: 60px;
+transform: translate(0%,3%);
+
+}
+.btn:hover{
+    /* background-color: rgb(34, 0, 255); */
+    color: rgb(29, 33, 37);
+}
+.punjabi{
+    line-height: 1.3;
+    margin-bottom: 30px;
+}
+.para{
+    line-height: 1.3;
+}
+.nav-row{
+    display: flex;
+    gap: 25px;
+   
+}
+.contact{
+    /* border-left: px solid gray; */
+    border-right: 1px solid grey;
+}
+.blog{
+    border-left: 1px solid gray;
+    /* border-right: 1px solid grey; */
+}
+.about{
+    border-left: 1px solid gray;
+    /* border-right: 1px solid grey; */
+}
